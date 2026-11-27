@@ -1,0 +1,63 @@
+[
+  {
+    "documento": "D01",
+    "azione": "togli_tra",
+    "da": "^<!-- Pagina PDF 1 -->$",
+    "a": "^<!-- Pagina PDF 2 -->$",
+    "motivo": "Copertina: ripete solo il titolo, che compare di nuovo a pagina 3 del Regolamento.",
+    "deciso": "25/11/2026"
+  },
+  {
+    "documento": "D01",
+    "azione": "togli_tra",
+    "da": "^Σ \\(numero CFU × voto\\) / S",
+    "a": "^sommando, per ogni esame superato",
+    "motivo": "Seconda versione della formula del § 5.2, spezzata in righe senza senso («S», «i», «i=1»): si tiene la riga leggibile sopra.",
+    "deciso": "25/11/2026"
+  },
+  {
+    "documento": "D01",
+    "azione": "sposta_nota",
+    "nota": "^1 Per i corsi di laurea delle Professioni sanitarie",
+    "richiamo": " (1)",
+    "motivo": "La nota a piè di pagina sulle Professioni sanitarie sta lontana dal § 4.1 che la richiama: la riporto accanto al richiamo.",
+    "deciso": "25/11/2026"
+  },
+  {
+    "documento": "D04",
+    "azione": "togli_righe",
+    "righe": ["\\| €\\s*(\\(.*\\))?$", "^Seleziona il tipo di Corso di Laurea$", "^ISEE superiore a € 30000$", "^Contributo onnicomprensivo annuale risultante dal calcolo"],
+    "motivo": "Resti del modulo del simulatore: etichette senza valori.",
+    "deciso": "25/11/2026"
+  },
+  {
+    "documento": "D11",
+    "azione": "togli_righe",
+    "righe": ["^NUMERO TICKET EVASI"],
+    "motivo": "Statistiche dei ticket degli anni passati: non rispondono a domande degli studenti.",
+    "deciso": "25/11/2026"
+  },
+  {
+    "documento": "D03",
+    "azione": "togli_frase",
+    "frase": "L'importo delle tasse e dei contributi per gli studenti a tempo parziale è calcolato in base alla quota fissa e alla quota unitaria per C.F.U. previste per la propria fascia di contribuzione ed è ripartito in due rate.",
+    "motivo": "Superata dal Regolamento 2026/27, § 3.5: per il part-time si paga una percentuale del contributo a tempo pieno.",
+    "deciso": "25/11/2026"
+  },
+  {
+    "documento": "D02",
+    "azione": "aggiungi_nota",
+    "frase": "Presso gli Uffici Postali",
+    "nota": "[Nota: la pagina pagoPA di Ateneo indica invece che per gli avvisi emessi dall'Università di Salerno non è possibile pagare presso gli uffici postali. Da verificare con la segreteria.]",
+    "motivo": "Contrasto tra D02 e D10 sugli uffici postali: lo rendo visibile a chi legge il chunk, modello compreso.",
+    "deciso": "25/11/2026"
+  },
+  {
+    "documento": "D10",
+    "azione": "aggiungi_nota",
+    "frase": "NON è possibile effettuare il pagamento presso gli uffici postali",
+    "nota": "[Nota: la pagina Tasse e Contributi elenca invece anche gli Uffici Postali tra i luoghi di pagamento. Da verificare con la segreteria.]",
+    "motivo": "Lo stesso contrasto, visto dall'altra pagina.",
+    "deciso": "25/11/2026"
+  }
+]

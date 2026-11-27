@@ -1,0 +1,28 @@
+# Ambiente Python e cache locali
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+
+# Documenti, annotazioni, risultati e indice vettoriale
+/documenti/
+/chroma_db/
+*.sqlite3
+*.sqlite3-*
+*.xlsx
+
+# Credenziali e impostazioni locali
+.env
+.env.*
+*.key
+*.pem
+.streamlit/secrets.toml
+/.aws/
+/.codex/
+/.agents/
+/.vscode/
+/.idea/
